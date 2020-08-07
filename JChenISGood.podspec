@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JChenISGood"#项目名称
-  spec.version      = "0.0.3"#版本号 与仓库的标签号一致
+  spec.version      = "0.0.6"#版本号 与仓库的标签号一致可以解释以前有个库afnet吧？github上是最新版，pod上最新也是3.3但是下下来的代码不是最新的??又好像跟分支有关
   spec.summary      = "this is my first podspec Project"
 
   # This description is used to generate tags and improve search results.
@@ -69,10 +69,10 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"#平台及支持的最低版本
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  spec.ios.deployment_target = '8.0'
+  # spec.osx.deployment_target = '10.10'
+  # spec.tvos.deployment_target = '9.0'
+  # spec.watchos.deployment_target = '2.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"#依赖其他库
+  spec.ios.framework  = 'UIKit' #依赖其他库
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
