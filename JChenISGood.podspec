@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JChenISGood"#项目名称
-  spec.version      = "0.0.1"#版本号 与仓库的标签号一致
+  spec.version      = "0.0.3"#版本号 与仓库的标签号一致
   spec.summary      = "this is my first podspec Project"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JChenISGood", "JChenISGood/**/*.{md}"#swift库{swift};oc库{h,m}
+  spec.source_files  = "JChenISGood", "JChenISGood/**/*.{h,m}"#swift库{swift};oc库{h,m}
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
