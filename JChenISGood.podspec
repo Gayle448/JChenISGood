@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JChenISGood"#项目名称
-  spec.version      = "0.0.6"#版本号 与仓库的标签号一致可以解释以前有个库afnet吧？github上是最新版，pod上最新也是3.3但是下下来的代码不是最新的??又好像跟分支有关
+  spec.version      = "1.0"#版本号 与仓库的标签号一致可以解释以前有个库afnet吧？github上是最新版，pod上最新也是3.3但是下下来的代码不是最新的??又好像跟分支有关
   spec.summary      = "this is my first podspec Project"
 
   # This description is used to generate tags and improve search results.
